@@ -3,13 +3,13 @@ My configuration files for neovim
 
 ## To set up configuration
 
-1. Clone repo as bare repo
+1. Clone repo as a bare repo
 
 ```bash
 git clone --bare git@github.com:serezhascream/nvimconfig.git .nvimconfig
 ```
 
-2. Create alias for managing nvim configuration
+2. Create an alias for managing nvim configuration
 
 ```bash
 alias nconf="/usr/bin/git --git-dir=$HOME/.nvimconfig --git-tree=$HOME/%path-to-configuration%"
